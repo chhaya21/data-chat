@@ -1,5 +1,5 @@
 import './globals.css';
-import kpiCard from './components/kpiCard';
+import {prisma} from '@/lib/db';
 import KpiCard from './components/kpiCard';
 
 export default function Home() {
